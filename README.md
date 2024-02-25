@@ -13,8 +13,10 @@ Run the following
 `clang -shared gl.c -o glad.dll`
 
 > **_NOTE:_** The above command assumes that the include paths are left untouched
+
 ## Linkage
 Run the following
+
 `clang foo.c -lglad.dll`
 
 > **_NOTE:_** The above command assumes that foo.c and glad.dll are in the same directory
